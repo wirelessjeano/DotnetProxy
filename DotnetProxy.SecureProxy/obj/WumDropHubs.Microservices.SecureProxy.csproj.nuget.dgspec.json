@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/wirelessjeano/Projects/DotNetProxy/DotNetProxy.SecureProxy/WumDropHubs.Microservices.SecureProxy.csproj": {}
+  },
+  "projects": {
+    "/home/wirelessjeano/Projects/DotNetProxy/DotNetProxy.SecureProxy/WumDropHubs.Microservices.SecureProxy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/wirelessjeano/Projects/DotNetProxy/DotNetProxy.SecureProxy/WumDropHubs.Microservices.SecureProxy.csproj",
+        "projectName": "WumDropHubs.Microservices.SecureProxy",
+        "projectPath": "/home/wirelessjeano/Projects/DotNetProxy/DotNetProxy.SecureProxy/WumDropHubs.Microservices.SecureProxy.csproj",
+        "packagesPath": "/home/wirelessjeano/.nuget/packages/",
+        "outputPath": "/home/wirelessjeano/Projects/DotNetProxy/DotNetProxy.SecureProxy/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/wirelessjeano/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/home/wirelessjeano/Projects/DotNetProxy/WumDropHubs.Core/WumDropHubs.Core.csproj": {
+                "projectPath": "/home/wirelessjeano/Projects/DotNetProxy/WumDropHubs.Core/WumDropHubs.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.31, 3.1.31]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

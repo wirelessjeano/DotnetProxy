@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zfNpuPTrCVXA2LY233fo45bMGeOruc+7k3rUhDyU4F0=",
+  "Source": "DotnetProxy.SecureProxy",
+  "BasePath": "_content/DotnetProxy.SecureProxy",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

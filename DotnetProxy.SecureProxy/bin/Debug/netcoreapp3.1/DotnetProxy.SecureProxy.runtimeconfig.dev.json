@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/wirelessjeano/.dotnet/store/|arch|/|tfm|",
+      "/home/wirelessjeano/.nuget/packages"
+    ]
+  }
+}

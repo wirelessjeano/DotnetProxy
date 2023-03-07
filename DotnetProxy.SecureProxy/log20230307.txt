@@ -1,0 +1,346 @@
+2023-03-07 19:05:24.383 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/  
+2023-03-07 19:05:24.417 +02:00 [WRN] Failed to determine the https port for redirect.
+2023-03-07 19:05:25.750 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 134
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-07 19:05:25.790 +02:00 [INF] Request finished in 1409.4755ms 500 text/html; charset=utf-8
+2023-03-07 19:05:25.841 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/favicon.ico  
+2023-03-07 19:05:27.033 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 134
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-07 19:05:27.036 +02:00 [INF] Request finished in 1194.9263ms 500 text/plain
+2023-03-07 19:06:11.992 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/  
+2023-03-07 19:06:12.029 +02:00 [WRN] Failed to determine the https port for redirect.
+2023-03-07 19:06:40.000 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 134
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-07 19:06:40.050 +02:00 [INF] Request finished in 28059.5774ms 500 text/html; charset=utf-8
+2023-03-07 19:06:40.099 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/favicon.ico  
+2023-03-07 19:07:36.340 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/  
+2023-03-07 19:07:36.377 +02:00 [WRN] Failed to determine the https port for redirect.
+2023-03-07 19:07:37.984 +02:00 [INF] Request finished in 1647.5629ms 200 text/html
+2023-03-07 19:07:38.000 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png  
+2023-03-07 19:07:38.004 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/client_204?&atyp=i&biw=1560&bih=968&ei=WW8HZJqiEJuY4-EPsJOAgAs  
+2023-03-07 19:07:38.006 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/images/nav_logo229.png  
+2023-03-07 19:07:38.014 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/xjs/_/js/k=xjs.hp.en.cVfqahBQjfI.O/am=AACgEwBAAYAF/d=1/ed=1/rs=ACT90oHbFuYYfrFZQVpZusiHNzQIDiJMFA/m=sb_he,d  
+2023-03-07 19:07:38.429 +02:00 [INF] Request finished in 427.3743ms 200 image/png
+2023-03-07 19:07:38.437 +02:00 [INF] Request finished in 430.371ms 200 image/png
+2023-03-07 19:07:38.442 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-07 19:07:38.476 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2023-03-07 19:07:38.480 +02:00 [ERR] Connection id "0HMOV5PPHJ9Q6", Request id "0HMOV5PPHJ9Q6:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-03-07 19:07:38.481 +02:00 [INF] Request finished in 476.5944ms 204 text/html
+2023-03-07 19:07:38.871 +02:00 [INF] Request finished in 857.5668ms 200 text/javascript
+2023-03-07 19:07:39.183 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/images/nav_logo229.png  
+2023-03-07 19:07:39.186 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/gen_204?atyp=i&ct=psnt&cad=&nt=reload&ei=WW8HZJqiEJuY4-EPsJOAgAs&zx=1678208859180  
+2023-03-07 19:07:39.190 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/favicon.ico  
+2023-03-07 19:07:39.665 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-07 19:07:39.665 +02:00 [INF] Request finished in 474.2122ms 200 image/x-icon
+2023-03-07 19:07:39.669 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2023-03-07 19:07:39.671 +02:00 [ERR] Connection id "0HMOV5PPHJ9Q7", Request id "0HMOV5PPHJ9Q7:00000002": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-03-07 19:07:39.674 +02:00 [INF] Request finished in 488.5205ms 204 text/html
+2023-03-07 19:07:39.703 +02:00 [INF] Request finished in 520.1206ms 200 image/png
+2023-03-07 19:08:04.899 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/search?ie=ISO-8859-1&hl=en-ZA&source=hp&biw=&bih=&q=awe&iflsig=AK50M_UAAAAAZAd9aQzNx0px4bkl7rSqepD5GSu5d490&gbv=2&oq=awe&gs_l=heirloom-hp.12..0i512i433i131j0i512i433j0i512i433i131j0i512j0i512i433l4j0i512i433i131j0i512i433.23986.24110.0.25999.3.3.0.0.0.0.544.1151.0j1j4-1j1.3.0....0...1ac.1.34.heirloom-hp..2.1.184.CidW1GeTaN0  
+2023-03-07 19:08:05.906 +02:00 [INF] Request finished in 1006.3186ms 200 text/html
+2023-03-07 19:08:06.017 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/gen_204?atyp=csi&s=web&t=aft&lite=1&ei=dW8HZMKgEYaagQap7JbQDA&conn=undefined&biw=1560&bih=968&ima=1&rt=prt.91,wsrt.996,aft.120&zx=1678208886012  
+2023-03-07 19:08:06.484 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-07 19:08:06.488 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2023-03-07 19:08:06.489 +02:00 [ERR] Connection id "0HMOV5PPHJ9Q8", Request id "0HMOV5PPHJ9Q8:00000004": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-03-07 19:08:06.493 +02:00 [INF] Request finished in 476.7734ms 204 text/html
+2023-03-07 19:08:06.516 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/favicon.ico  
+2023-03-07 19:08:06.515 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/gen_204?atyp=csi&s=web&t=all&lite=1&ei=dW8HZMKgEYaagQap7JbQDA&conn=undefined&biw=1560&bih=968&ima=1&ime=0&imel=0&imex=0&imeh=0&imea=0&imeb=16&rt=prt.91,wsrt.996,aft.120,ol.611,rqst.1008,rspt.15&zx=1678208886502  
+2023-03-07 19:08:06.802 +02:00 [INF] Request finished in 286.3143ms 200 image/x-icon
+2023-03-07 19:08:06.983 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-07 19:08:06.987 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2023-03-07 19:08:06.988 +02:00 [ERR] Connection id "0HMOV5PPHJ9Q5", Request id "0HMOV5PPHJ9Q5:00000004": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-03-07 19:08:06.989 +02:00 [INF] Request finished in 474.5721ms 204 text/html
+2023-03-07 19:08:39.678 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/search?ie=ISO-8859-1&hl=en-ZA&source=hp&biw=&bih=&q=awe&iflsig=AK50M_UAAAAAZAd9aQzNx0px4bkl7rSqepD5GSu5d490&gbv=2&oq=awe&gs_l=heirloom-hp.12..0i512i433i131j0i512i433j0i512i433i131j0i512j0i512i433l4j0i512i433i131j0i512i433.23986.24110.0.25999.3.3.0.0.0.0.544.1151.0j1j4-1j1.3.0....0...1ac.1.34.heirloom-hp..2.1.184.CidW1GeTaN0  
+2023-03-07 19:08:39.715 +02:00 [WRN] Failed to determine the https port for redirect.
+2023-03-07 19:08:42.770 +02:00 [INF] Request finished in 3095.0692ms 200 text/html
+2023-03-07 19:08:42.818 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/gen_204?atyp=csi&s=web&t=aft&lite=1&ei=mG8HZKPOIvDz4-EPg6ukcA&conn=undefined&biw=1560&bih=968&ima=5&rt=prt.44,wsrt.3166,aft.50&zx=1678208922812  
+2023-03-07 19:08:43.261 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-07 19:08:43.301 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2023-03-07 19:08:43.304 +02:00 [ERR] Connection id "0HMOV5QCDK6II", Request id "0HMOV5QCDK6II:00000002": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-03-07 19:08:43.306 +02:00 [INF] Request finished in 487.6385ms 204 text/html
+2023-03-07 19:08:43.316 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/gen_204?atyp=csi&s=web&t=all&lite=1&ei=mG8HZKPOIvDz4-EPg6ukcA&conn=undefined&biw=1560&bih=968&ima=5&ime=0&imel=0&imex=1&imeh=0&imea=0&imeb=13&rt=prt.44,wsrt.3166,aft.50,ol.552,rqst.3165,rspt.8&zx=1678208923314  
+2023-03-07 19:08:43.317 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/favicon.ico  
+2023-03-07 19:08:43.591 +02:00 [INF] Request finished in 274.4347ms 200 image/x-icon
+2023-03-07 19:08:43.751 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-07 19:08:43.754 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2023-03-07 19:08:43.756 +02:00 [ERR] Connection id "0HMOV5QCDK6IJ", Request id "0HMOV5QCDK6IJ:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-03-07 19:08:43.761 +02:00 [INF] Request finished in 444.3664ms 204 text/html
+2023-03-07 19:08:48.293 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/gen_204?atyp=i&ct=backbutton&cad=&tt=navigation&ei=WW8HZJqiEJuY4-EPsJOAgAs&trs=0&nt=back_forward&zx=1678208928287  
+2023-03-07 19:08:48.768 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-07 19:08:48.780 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2023-03-07 19:08:48.783 +02:00 [ERR] Connection id "0HMOV5QCDK6IK", Request id "0HMOV5QCDK6IK:00000002": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-03-07 19:08:48.791 +02:00 [INF] Request finished in 498.1081ms 204 text/html
+2023-03-07 19:08:48.805 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/gen_204?atyp=i&ct=psnt&cad=&nt=back_forward&ei=WW8HZJqiEJuY4-EPsJOAgAs&zx=1678208928801  
+2023-03-07 19:08:48.808 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/favicon.ico  
+2023-03-07 19:08:49.112 +02:00 [INF] Request finished in 303.8476ms 200 image/x-icon
+2023-03-07 19:08:49.279 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-07 19:08:49.283 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2023-03-07 19:08:49.285 +02:00 [ERR] Connection id "0HMOV5QCDK6IL", Request id "0HMOV5QCDK6IL:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowWritingToResponseBodyNotSupported()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location where exception was thrown ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-03-07 19:08:49.290 +02:00 [INF] Request finished in 484.3372ms 204 text/html
+2023-03-07 19:11:15.019 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/ - -
+2023-03-07 19:11:15.063 +02:00 [WRN] Failed to determine the https port for redirect.
+2023-03-07 19:11:16.244 +02:00 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5012/ - - - 200 - text/html 1226.9021ms
+2023-03-07 19:11:16.253 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png - -
+2023-03-07 19:11:16.257 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/client_204?&atyp=i&biw=1560&bih=968&ei=M3AHZIrcKtHv4-EPnbCa-AM - -
+2023-03-07 19:11:16.262 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/images/nav_logo229.png - -
+2023-03-07 19:11:16.273 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/xjs/_/js/k=xjs.hp.en.cVfqahBQjfI.O/am=AACgEwBAAYAF/d=1/ed=1/rs=ACT90oHbFuYYfrFZQVpZusiHNzQIDiJMFA/m=sb_he,d - -
+2023-03-07 19:11:16.658 +02:00 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5012/xjs/_/js/k=xjs.hp.en.cVfqahBQjfI.O/am=AACgEwBAAYAF/d=1/ed=1/rs=ACT90oHbFuYYfrFZQVpZusiHNzQIDiJMFA/m=sb_he,d - - - 200 - text/javascript 385.0098ms
+2023-03-07 19:11:16.683 +02:00 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5012/images/nav_logo229.png - - - 200 - image/png 420.9588ms
+2023-03-07 19:11:16.688 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-03-07 19:11:16.699 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2023-03-07 19:11:16.702 +02:00 [ERR] Connection id "0HMOV5RQN2UG9", Request id "0HMOV5RQN2UG9:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-03-07 19:11:16.702 +02:00 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5012/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png - - - 200 - image/png 449.5758ms
+2023-03-07 19:11:16.702 +02:00 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5012/client_204?&atyp=i&biw=1560&bih=968&ei=M3AHZIrcKtHv4-EPnbCa-AM - - - 204 - text/html 445.8882ms
+2023-03-07 19:11:16.717 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/gen_204?atyp=i&ct=psnt&cad=&nt=navigate&ei=M3AHZIrcKtHv4-EPnbCa-AM&zx=1678209076712 - -
+2023-03-07 19:11:16.717 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/images/nav_logo229.png - -
+2023-03-07 19:11:16.718 +02:00 [INF] Request starting HTTP/1.1 GET http://0.0.0.0:5012/favicon.ico - -
+2023-03-07 19:11:16.981 +02:00 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5012/favicon.ico - - - 200 - image/x-icon 263.0219ms
+2023-03-07 19:11:17.137 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-03-07 19:11:17.139 +02:00 [WRN] The response has already started, the error page middleware will not be executed.
+2023-03-07 19:11:17.139 +02:00 [ERR] Connection id "0HMOV5RQN2UGA", Request id "0HMOV5RQN2UGA:00000002": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 204.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponsePipeWriter.Advance(Int32 bytes)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.Write(HttpResponse response, String text, Encoding encoding)
+   at Microsoft.AspNetCore.Http.HttpResponseWritingExtensions.WriteAsync(HttpResponse response, String text, Encoding encoding, CancellationToken cancellationToken)
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.<>c__DisplayClass6_0.<<Invoke>g__SendRequestToTargetAsync|0>d.MoveNext() in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 151
+--- End of stack trace from previous location ---
+   at DotnetProxy.SecureProxy.Middleware.SecureProxy.Invoke(HttpContext context) in /home/wirelessjeano/Projects/DotnetProxy/DotNetProxy.SecureProxy/Middleware/SecureProxy.cs:line 155
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-03-07 19:11:17.141 +02:00 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5012/gen_204?atyp=i&ct=psnt&cad=&nt=navigate&ei=M3AHZIrcKtHv4-EPnbCa-AM&zx=1678209076712 - - - 204 - text/html 424.3481ms
+2023-03-07 19:11:17.156 +02:00 [INF] Request finished HTTP/1.1 GET http://0.0.0.0:5012/images/nav_logo229.png - - - 200 - image/png 438.5916ms

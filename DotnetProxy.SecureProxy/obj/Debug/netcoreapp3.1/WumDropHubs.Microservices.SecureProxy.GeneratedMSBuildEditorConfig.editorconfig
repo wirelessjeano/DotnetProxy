@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = WumDropHubs.Microservices.SecureProxy
+build_property.ProjectDir = /home/wirelessjeano/Projects/DotNetProxy/DotNetProxy.SecureProxy/

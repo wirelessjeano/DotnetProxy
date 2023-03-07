@@ -1,0 +1,15 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  },
+  "AppName": "SecureProxy",
+  "AllowedHosts": "*",
+  "ProxyConfigs": {
+    "TargetUrl": "https://www.google.com/",
+    "CertificateDirectory": "configs",
+    "CertificateFile": "mycertificate.com.p12",
+    "CertificatePassword": "fr33n3tw0rk"
+  }
+}
